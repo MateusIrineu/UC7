@@ -1,0 +1,33 @@
+
+h1 {
+
+    text-align: center;
+  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    background-color:blueviolet; 
+    color: black; 
+    text-align: center;
+    text-align: justify;
+    text-decoration: double;
+}
+
+a{
+    background-color: blueviolet;
+}
+
+ul{
+    color: black;
+    background-color: red;
+}
+
+li{
+    color: #ff0000;
+    background-color: black;
+}
+
+.irineu{
+    background-color: purple;
+}
