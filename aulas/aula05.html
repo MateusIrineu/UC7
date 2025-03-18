@@ -12,12 +12,6 @@
 
     <style>
 
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body{
             background-color: rgb(56, 56, 56);
         }
@@ -27,18 +21,31 @@
             text-align: center;
             background-color: rgb(41, 40, 40);
         }
+
+        .exercicio{
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
         .paragrafo{
             background-color: white;
-            
-            
+
         }
+            
+        .secao{
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
         .conteudo{
             background-color: white;
-            font-size: 12px;
+            font-size: 10px;
+            
         }
        li{
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 20px;
             display: inline-block;
             margin-left: 5px;
             border-radius: 7px;
@@ -48,13 +55,13 @@
             padding: 10px;
             display: inline-block;
             text-decoration: none;
-            color: red;
+            color: black;
             border-radius: 5px;
             background-color: gray;
        }
 
        a:hover{
-            background-color:black;
+            background-color: rgb(185, 183, 183);
             transition: 0.3s;
        }
 
@@ -64,7 +71,7 @@
 </head>
 <body>
    <ul>
-        <li><a href="#"> Exercício de Display </a></li>
+        <li class="exercicio"> Exercício de Display </li>
    </ul>
 
 
@@ -76,27 +83,34 @@
    </ul>
 
    <ul class="secao">
-    <li><a href="#"> Seção 1 </a></li>
+    <li> Seção 1 </li>
 </ul>
 
 <ul class="conteudo">
-    <li><a href="#">Conteúdo da seção 1</a></li>
+<hr>
+    <li>Conteúdo da seção 1</li>
+<hr>
    </ul>
 
    <ul class="secao">
-    <li><a href="#"> Seção 2 </a></li>
+    <li> Seção 2 </li>
 </ul>
 
 <ul class="conteudo">
-    <li><a href="#">Conteúdo da seção 2</a></li>
+    <hr>
+    <li> Conteúdo da seção 2 </li>
+    <hr>
    </ul>
 
    <ul class="secao">
-    <li><a href="#"> Seção 3 </a></li>
+    <li> Seção 3 </li>
 </ul>
 
 <ul class="conteudo">
-    <li><a href="#">Conteúdo da seção 3</a></li>
+    <hr>
+    <li> Conteúdo da seção 3 </li>
+   <hr>
+    <li> © 2025 Meu Site </li>
    </ul>
    
 
