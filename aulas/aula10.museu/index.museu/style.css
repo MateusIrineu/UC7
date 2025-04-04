@@ -160,7 +160,7 @@ p span{
 
 }
 
-.calender_visit imput[type="number"]{
+.calender_visit input[type="number"]{
     width: 35px;
 }
 .calender_visit p a{

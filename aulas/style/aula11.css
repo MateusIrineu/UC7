@@ -1,0 +1,48 @@
+body{
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    width: 30%;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 3px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn [type="submit"]{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+}
+
+.btn [type="submit"]:hover{
+    background-color: rgb(1, 1, 122);
+}
+
+.btn [type="reset"]{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+}
+
+.btn [type="reset"]:hover{
+    background-color: rgb(114, 6, 6);
+}
