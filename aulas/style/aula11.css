@@ -27,7 +27,7 @@ fieldset{
 input{
     margin-bottom: 10px;
     border-radius: 5px;
-    padding: 8px 80px;
+    padding: 8px;
     background-color: rgb(32, 32, 32);
     border: none;
 }
@@ -51,28 +51,36 @@ label{
     padding: 10px 60px;
     border: none;
     border-radius: 7px;
+    cursor: pointer;
 }
 
 .btn [type="submit"]:hover{
+    transition: 0.3;
     background-color: #e6ff02;
 }
 
 li{
-    background-color: red;
     border-radius: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+    margin-right: 50px;
 }
 
 a{
+    background-color: rgb(204, 2, 2);
+    border-radius: 10px;
     text-decoration: none;
     color: white;
     font-weight: lighter;
     font-size: 13px;
+    padding: 10px
+}
+
+a:hover{
+    transition: 0.3s;
+    background-color: red;
 }
 
 label{
