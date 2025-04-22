@@ -125,7 +125,7 @@ p span{
 }
 
 /* Estilo do aside  */
-.container_right{
+.content_right{
     display: flex;
     justify-content: space-evenly;
     align-items: center;

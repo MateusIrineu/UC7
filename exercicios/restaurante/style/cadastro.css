@@ -1,0 +1,47 @@
+.general{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10%;
+}
+
+.content_left{
+    margin-right: 3%;
+    padding-top: 2%;
+    background-color: #091021;
+}
+
+.space{
+    border: 1px solid black;
+    padding: 2% 5%;
+}
+
+.content_right{
+    text-align:justify;
+    border: 1px solid black;
+    padding: 2% 5%;
+
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+.bi-shop{
+    padding-left: 80px;
+}
+
+article{
+    border: 1px solid black;
+    padding: 20px
+}
+
+
+li{
+    padding-bottom: 20px;
+    list-style-type: none;
+}
