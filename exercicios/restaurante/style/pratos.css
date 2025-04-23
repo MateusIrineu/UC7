@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0D0D0D;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.general{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 2%;
+    background-color:#0D0D0D
+}
+
+.content_left{
+    margin-right: 85%;
+    padding-top: 2%;
+    padding-left: 2%;
+    background-color: rgba(19, 18, 18, 0.945);
+    padding-right: 50px;
+    position: fixed;
+    height: 100%;
+    box-shadow: 1px 1px 20px black, inset -1px -1px 20px black;
+}
+
+.content_right{
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 22%;
+    padding-left: 5%;
+    margin-right: 10%;
+    padding-right: 33.5%;
+    padding-bottom: 10%;
+    box-shadow: 1px 1px 20px black, inset -1px -1px 10px black;
+}
+
+h2{
+    padding-left: 75px;
+    padding-bottom: 40px;
+}
+
+
+.bi-shop{
+    padding-left: 130px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+li{
+    margin-left: 45px;
+    margin-bottom: 30px;
+    list-style-type: none;
+    padding: 10px;
+}
+
+a:hover{
+    transition: 0.9s;
+    background-color: #0D0D0D;
+    padding: 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px white, inset -1px -1px 5px white;
+}
+
+.cards{
+    display: flex;
+    /* margin-left: 20%; */
+}
+
+.pratos{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.card{
+    border: 1px solid white;
+    margin-right: 12%;
+    padding-right: 10%; 
+}
+
+.comida{
+    padding-top: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 20%;
+    margin-top: 10%;
+}
+
+article{
+    padding-bottom: 30%;
+}
+
+
